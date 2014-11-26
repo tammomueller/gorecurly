@@ -38,6 +38,7 @@ type BillingInfo struct {
 	Month              int          `xml:"month,omitempty"`
 	Year               int          `xml:"year,omitempty"`
 	BillingAgreementID string       `xml:"billing_agreement_id,omitempty"`
+	TokenID            string       `xml:"token_id,omitempty"`
 }
 
 //Update an billing info 
