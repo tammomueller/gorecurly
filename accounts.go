@@ -72,7 +72,6 @@ func (a *Account) Update() error {
 	newaccount.State = ""
 	newaccount.HostedLoginToken = ""
 	newaccount.CreatedAt = nil
-	newaccount.B = nil
 	return a.r.doUpdate(newaccount, a.endpoint+"/"+a.AccountCode)
 }
 
