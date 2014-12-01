@@ -7,7 +7,7 @@ Sort of ready for production.  There are live tests to do most CRUD type operati
 Installing
 ==========
 
-	go get github.com/mbeale/gorecurly
+	go get github.com/cgerrior/gorecurly
 
 Examples
 =======
