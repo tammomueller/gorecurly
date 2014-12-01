@@ -16,7 +16,7 @@ Examples
 	package main
 
 	import (
-		"github.com/mbeale/gorecurly"
+		"github.com/cgerrior/gorecurly"
 	)
 
 	func main() {
@@ -44,7 +44,7 @@ More examples in test
 Documentation
 =============
 
-Main documentation at [GoPkgDoc](http://go.pkgdoc.org/github.com/mbeale/gorecurly)
+Main documentation at [GoPkgDoc](http://godoc.org/github.com/cgerrior/gorecurly)
 
 Why Live Testing
 ================
