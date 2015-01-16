@@ -48,7 +48,7 @@ type AccountSubscriptionList struct {
 	r *Recurly
 	XMLName xml.Name `xml:"subscriptions"`
 	AccountCode string `xml:"-"`
-	Subscriptions []Subscription `xml:"subscriptions"`
+	Subscriptions []Subscription `xml:"subscription"`
 }
 
 
