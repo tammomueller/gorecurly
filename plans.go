@@ -91,6 +91,7 @@ func (p *Plan) Delete() error {
 type PlanStub struct {
 	XMLName xml.Name `xml:"plan"`
 	stub
+	Plan
 }
 
 //A struct to be embedded for plan_code

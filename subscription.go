@@ -14,7 +14,7 @@ type Subscription struct {
 	Timeframe              string          `xml:"timeframe,omitempty"`
 	Account                *AccountStub    `xml:"account,omitempty"`
 	EmbedAccount           *Account        `xml:"-"`
-	Plan                   *Plan       `xml:"plan,omitempty"`
+	Plan                   *PlanStub       `xml:"plan,omitempty"`
 	PlanCode               string          `xml:"-"`
 	UUID                   string          `xml:"uuid,omitempty"`
 	State                  string          `xml:"state,omitempty"`
