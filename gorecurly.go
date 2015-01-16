@@ -1116,7 +1116,7 @@ func (p *Paging) SetData(rb []byte, count string, links string, params url.Value
 		link := strings.SplitN(v, ";", -1)
 		link[0] = strings.Replace(link[0], "<", "", -1)
 		link[0] = strings.Replace(link[0], ">", "", -1)
-		if u, err := url.Parse(link[0]); err == nil {
+		if u, err := url.Parse(link[0]); err == nil && len(link) > 1 {
 			values := u.Query()
 			switch link[1] {
 			case " rel=\"next\"":
